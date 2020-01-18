@@ -1,7 +1,29 @@
-/* .body-bg {
-    background-color: aqua;
-} */
 
 .btn-div {
-    height: 200px;
+    padding: 30px;
+}
+
+.center-div {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.author {
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.next {
+    font-size: small;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social-icons {
+    margin-right: 10px;
+}
+
+.quote {
+    font-size: larger;
 }
