@@ -99,7 +99,7 @@ class App extends React.Component {
                                 </div>
                                 <div className="col-4"></div>
                                 <div className="col-4">
-                                    <span className="next" style={{ backgroundColor: colorArray[this.state.randomCol]}} onClick={this.handleClick}>New Quote</span>
+                                    <a href="#" className="next" style={{ backgroundColor: colorArray[this.state.randomCol]}} onClick={this.handleClick}>New Quote</a>
                                 </div>
                             </div>
                         </div>
