@@ -92,14 +92,14 @@ class App extends React.Component {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4">
+                                {/* <div className="col-4">
                                     <i className="fa fa-facebook social-icons" style={{ color: colorArray[this.state.randomCol]}}></i>
                                     <i className="fa fa-twitter social-icons" style={{ color: colorArray[this.state.randomCol]}}></i>
                                     <i className="fa fa-linkedin social-icons" style={{ color: colorArray[this.state.randomCol]}}></i>
-                                </div>
-                                <div className="col-4"></div>
+                                </div> */}
+                                <div className="col-8"></div>
                                 <div className="col-4">
-                                    <a href="#" className="next" style={{ backgroundColor: colorArray[this.state.randomCol]}} onClick={this.handleClick}>New Quote</a>
+                                    <a href="#" className="next p-2 text-white h5" style={{ backgroundColor: colorArray[this.state.randomCol]}} onClick={this.handleClick}>New Quote</a>
                                 </div>
                             </div>
                         </div>
